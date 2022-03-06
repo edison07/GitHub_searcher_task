@@ -27,7 +27,7 @@ class ViewController: UIViewController {
 
 extension ViewController: UISearchBarDelegate {
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
-        guard let name = searchBar.text else { return }
+        guard let name = searchBar.text, name != "" else { return }
         presenter.fetchUsers(userName: name)
         self.view.endEditing(true)
     }
