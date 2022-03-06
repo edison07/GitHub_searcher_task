@@ -79,23 +79,55 @@
 		380FBCF827D4D3D40040E553 /* GitHub_searcher_task */ = {
 			isa = PBXGroup;
 			children = (
+				380FBD3227D4DEA90040E553 /* Presenter */,
+				380FBD3127D4DE990040E553 /* Service */,
+				380FBD3027D4DE910040E553 /* Models */,
+				380FBD2F27D4DE710040E553 /* Views */,
 				380FBCF927D4D3D40040E553 /* AppDelegate.swift */,
 				380FBCFB27D4D3D40040E553 /* SceneDelegate.swift */,
-				380FBCFD27D4D3D40040E553 /* ViewController.swift */,
 				380FBD1527D4D6C20040E553 /* UICollectionView+Extensions.swift */,
-				380FBD1727D4D7110040E553 /* ResultCollectionViewCell.swift */,
-				380FBD1927D4D7150040E553 /* ResultCollectionViewCell.xib */,
-				380FBD2527D4D9890040E553 /* Model.swift */,
 				380FBD2727D4D9CD0040E553 /* Constant.swift */,
-				380FBCFF27D4D3D40040E553 /* Main.storyboard */,
-				380FBD2927D4D9E50040E553 /* APIService.swift */,
-				380FBD2B27D4DA070040E553 /* SearchPresenter.swift */,
 				380FBD2D27D4DA8C0040E553 /* String+Extensions.swift */,
 				380FBD0227D4D3D60040E553 /* Assets.xcassets */,
-				380FBD0427D4D3D60040E553 /* LaunchScreen.storyboard */,
 				380FBD0727D4D3D60040E553 /* Info.plist */,
 			);
 			path = GitHub_searcher_task;
+			sourceTree = "<group>";
+		};
+		380FBD2F27D4DE710040E553 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				380FBCFD27D4D3D40040E553 /* ViewController.swift */,
+				380FBD1727D4D7110040E553 /* ResultCollectionViewCell.swift */,
+				380FBD1927D4D7150040E553 /* ResultCollectionViewCell.xib */,
+				380FBCFF27D4D3D40040E553 /* Main.storyboard */,
+				380FBD0427D4D3D60040E553 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		380FBD3027D4DE910040E553 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				380FBD2527D4D9890040E553 /* Model.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		380FBD3127D4DE990040E553 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				380FBD2927D4D9E50040E553 /* APIService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		380FBD3227D4DEA90040E553 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				380FBD2B27D4DA070040E553 /* SearchPresenter.swift */,
+			);
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 		765478B1399021C3C244A2EE /* Frameworks */ = {
