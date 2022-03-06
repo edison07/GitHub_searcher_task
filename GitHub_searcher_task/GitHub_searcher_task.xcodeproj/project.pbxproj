@@ -14,6 +14,8 @@
 		380FBD0327D4D3D60040E553 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 380FBD0227D4D3D60040E553 /* Assets.xcassets */; };
 		380FBD0627D4D3D60040E553 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 380FBD0427D4D3D60040E553 /* LaunchScreen.storyboard */; };
 		380FBD1627D4D6C30040E553 /* UICollectionView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380FBD1527D4D6C20040E553 /* UICollectionView+Extensions.swift */; };
+		380FBD1827D4D7110040E553 /* ResultCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380FBD1727D4D7110040E553 /* ResultCollectionViewCell.swift */; };
+		380FBD1A27D4D7150040E553 /* ResultCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 380FBD1927D4D7150040E553 /* ResultCollectionViewCell.xib */; };
 		579443F4CD9067828EDD7C8E /* Pods_GitHub_searcher_task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF11D16A7C06729D71800E8 /* Pods_GitHub_searcher_task.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +30,8 @@
 		380FBD0527D4D3D60040E553 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		380FBD0727D4D3D60040E553 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		380FBD1527D4D6C20040E553 /* UICollectionView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extensions.swift"; sourceTree = "<group>"; };
+		380FBD1727D4D7110040E553 /* ResultCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultCollectionViewCell.swift; sourceTree = "<group>"; };
+		380FBD1927D4D7150040E553 /* ResultCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResultCollectionViewCell.xib; sourceTree = "<group>"; };
 		EFF11D16A7C06729D71800E8 /* Pods_GitHub_searcher_task.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitHub_searcher_task.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0276C9ACD9D9FD4C9CC109E /* Pods-GitHub_searcher_task.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHub_searcher_task.release.xcconfig"; path = "Target Support Files/Pods-GitHub_searcher_task/Pods-GitHub_searcher_task.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -69,6 +73,8 @@
 				380FBCFB27D4D3D40040E553 /* SceneDelegate.swift */,
 				380FBCFD27D4D3D40040E553 /* ViewController.swift */,
 				380FBD1527D4D6C20040E553 /* UICollectionView+Extensions.swift */,
+				380FBD1727D4D7110040E553 /* ResultCollectionViewCell.swift */,
+				380FBD1927D4D7150040E553 /* ResultCollectionViewCell.xib */,
 				380FBCFF27D4D3D40040E553 /* Main.storyboard */,
 				380FBD0227D4D3D60040E553 /* Assets.xcassets */,
 				380FBD0427D4D3D60040E553 /* LaunchScreen.storyboard */,
@@ -157,6 +163,7 @@
 				380FBD0627D4D3D60040E553 /* LaunchScreen.storyboard in Resources */,
 				380FBD0327D4D3D60040E553 /* Assets.xcassets in Resources */,
 				380FBD0127D4D3D40040E553 /* Main.storyboard in Resources */,
+				380FBD1A27D4D7150040E553 /* ResultCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,6 +220,7 @@
 				380FBCFE27D4D3D40040E553 /* ViewController.swift in Sources */,
 				380FBCFA27D4D3D40040E553 /* AppDelegate.swift in Sources */,
 				380FBCFC27D4D3D40040E553 /* SceneDelegate.swift in Sources */,
+				380FBD1827D4D7110040E553 /* ResultCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
