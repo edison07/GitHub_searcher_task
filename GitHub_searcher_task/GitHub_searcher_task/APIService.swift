@@ -21,7 +21,7 @@ class APIService {
                     case 200...299:
                         var linkStr: String?
                         if let link = response.response?.allHeaderFields["Link"] as? String {
-                            linkStr = link
+                            linkStr = link.nextPagePath()
                         }
                         do {
                             let data = try JSONDecoder().decode(UserModel.self, from: res)

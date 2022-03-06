@@ -34,7 +34,11 @@ extension ViewController: UISearchBarDelegate {
 }
 
 extension ViewController: UICollectionViewDelegate {
-    
+    func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
+        if indexPath.row == presenter.itemsCount - 1 {
+            presenter.pagination()
+        }
+    }
 }
 
 extension ViewController: UICollectionViewDataSource {
